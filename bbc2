@@ -1,0 +1,33 @@
+{
+  "@context": {
+    "version": 1.0,
+    "id": "@id",
+    "schema": "https://schema.org/",
+    "type": "@type",
+    "name": "schema:name",
+    "description": "schema:description",
+    "identifier": "schema:identifier",
+    "BatteryBirthCertificate": {
+      "@id": "schema:BatteryBirthCertificate",
+      "@context": {
+        "batteryid": "schema:batteryid",
+        "batterySoftwareVersion": "schema:batterySoftwareVersion",
+        "energyCapacity": "schema:energyCapacity",
+        "maxChargeRate": "schema:maxChargeRate",
+        "maxDischargeRate": "schema:maxDischargeRate",
+        "yearOfManufacture": "schema:yearOfManufacture",
+        "supplierID": "schema:supplierID",
+        "usageOfBatteryHistory": "schema:usageOfBatteryHistory",
+        "batterySerialNumber": "schema:batterySerialNumber",
+        "batteryPartlNumber": "schema:batteryPartlNumber",
+        "batteryPackDimension": "schema:batteryPackDimension",
+        "batteryWeight": "schema:batteryWeight",
+        "cellType": "schema:cellType",
+        "manufactureOfCell": "schema:manufactureOfCell",
+        "maxCellTemperature": "schema:maxCellTemperature",
+        "minCellTemperature": "schema:minCellTemperature",
+        "relatedLink": "schema:relatedLink"
+      }
+    }
+  }
+}
